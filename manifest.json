@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Recherche Google Scholar",
+  "version": "1.0",
+  "description": "Ajoute une option de recherche sur Google Scholar au menu contextuel.",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icon.png"
+    }
+  }
+}
